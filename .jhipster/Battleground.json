@@ -1,0 +1,45 @@
+{
+    "relationships": [
+        {
+            "relationshipId": 1,
+            "relationshipName": "clans",
+            "relationshipNameCapitalized": "Clans",
+            "relationshipFieldName": "clans",
+            "otherEntityName": "clan",
+            "relationshipType": "one-to-many",
+            "otherEntityNameCapitalized": "Clan"
+        }
+    ],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldNameCapitalized": "Name",
+            "fieldNameUnderscored": "name",
+            "fieldInJavaBeanMethod": "Name",
+            "fieldValidate": true,
+            "fieldValidateRules": []
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "location",
+            "fieldType": "String",
+            "fieldNameCapitalized": "Location",
+            "fieldNameUnderscored": "location",
+            "fieldInJavaBeanMethod": "Location",
+            "fieldValidate": true,
+            "fieldValidateRules": []
+        }
+    ],
+    "fieldsContainOwnerManyToMany": false,
+    "fieldsContainOneToMany": true,
+    "fieldsContainLocalDate": false,
+    "fieldsContainCustomTime": false,
+    "fieldsContainBigDecimal": false,
+    "fieldsContainDateTime": false,
+    "fieldsContainDate": false,
+    "changelogDate": "20150612083224",
+    "pagination": "pagination",
+    "validation": true
+}

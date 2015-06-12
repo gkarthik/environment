@@ -1,0 +1,20 @@
+{
+    "environmentApp": {
+        "clan" : {
+            "home": {
+                "title": "Clans",
+                "createLabel": "Create a new Clan",
+                "createOrEditLabel": "Create or edit a Clan"
+            },
+            "delete": {
+                "question": "Are you sure you want to delete Clan {{ id }}?"
+            },
+            "detail": {
+                "title": "Clan"
+            },
+            "name": "Name",
+            "members": "members",
+            "chieftain": "chieftain"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "environmentApp": {
+        "battleground" : {
+            "home": {
+                "title": "Battlegrounds",
+                "createLabel": "Create a new Battleground",
+                "createOrEditLabel": "Create or edit a Battleground"
+            },
+            "delete": {
+                "question": "Are you sure you want to delete Battleground {{ id }}?"
+            },
+            "detail": {
+                "title": "Battleground"
+            },
+            "name": "Name",
+            "location": "Location",
+            "clans": "clans"
+        }
+    }
+}

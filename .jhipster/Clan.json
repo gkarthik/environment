@@ -1,0 +1,47 @@
+{
+    "relationships": [
+        {
+            "relationshipId": 1,
+            "relationshipName": "members",
+            "relationshipNameCapitalized": "Members",
+            "relationshipFieldName": "members",
+            "otherEntityName": "user",
+            "relationshipType": "many-to-many",
+            "otherEntityNameCapitalized": "User",
+            "otherEntityField": "firstName",
+            "ownerSide": true
+        },
+        {
+            "relationshipId": 2,
+            "relationshipName": "chieftain",
+            "relationshipNameCapitalized": "Chieftain",
+            "relationshipFieldName": "chieftain",
+            "otherEntityName": "user",
+            "relationshipType": "many-to-one",
+            "otherEntityNameCapitalized": "User",
+            "otherEntityField": "firstName"
+        }
+    ],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldNameCapitalized": "Name",
+            "fieldNameUnderscored": "name",
+            "fieldInJavaBeanMethod": "Name",
+            "fieldValidate": true,
+            "fieldValidateRules": []
+        }
+    ],
+    "fieldsContainOwnerManyToMany": true,
+    "fieldsContainOneToMany": false,
+    "fieldsContainLocalDate": false,
+    "fieldsContainCustomTime": false,
+    "fieldsContainBigDecimal": false,
+    "fieldsContainDateTime": false,
+    "fieldsContainDate": false,
+    "changelogDate": "20150612082713",
+    "pagination": "pagination",
+    "validation": true
+}

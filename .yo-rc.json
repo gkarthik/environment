@@ -1,0 +1,20 @@
+{
+  "generator-jhipster": {
+    "baseName": "environment",
+    "packageName": "com.environment.environment",
+    "packageFolder": "com/environment/environment",
+    "authenticationType": "session",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "no",
+    "useCompass": false,
+    "buildTool": "maven",
+    "frontendBuilder": "grunt",
+    "javaVersion": "7",
+    "rememberMeKey": "c6a76b4fdb85a4d662e3334b50936f045e859898"
+  }
+}
